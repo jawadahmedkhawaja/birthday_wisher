@@ -33,7 +33,7 @@ class Config {
     return value.trim();
   }
 
-  static String get myName => value('YOUR_NAME', 'Kh. Naveed');
+  static String get myName => value('YOUR_NAME', 'Name');
 
   static String get herName => value('HER_NAME', 'My Love');
 
